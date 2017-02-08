@@ -1,0 +1,27 @@
+server:
+   port: 8090
+spring:
+  ########################################################
+  ###datasource
+  ########################################################
+  datasource:
+      url: jdbc:mysql://localhost:3306/test
+      username: root
+      password:
+      driverClassName: com.mysql.jdbc.Driver
+  ########################################################
+  ### Java Persistence Api
+  ########################################################
+  jpa:
+    # Specify the DBMS
+    database: MYSQL
+    show-sql: true
+    hibernate:
+        # Hibernate ddl auto (create, create-drop, update)
+        ddl-auto: update
+        # Naming strategy
+        naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+        # stripped before adding them to the entity manager)
+    properties:
+        hibernate:
+        dialect: org.hibernate.dialect.MySQL5Dialect
