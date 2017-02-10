@@ -28,8 +28,8 @@ import static org.aspectj.lang.reflect.DeclareAnnotation.Kind.Method;
  * @version v.0.1
  */
 /** 若和ECash 同时配置会报错 **/
-//@Configuration
-//@EnableCaching//启用缓存，这个注解很重要；
+@Configuration
+@EnableCaching//启用缓存，这个注解很重要；
 public class RedisCacheConfig extends CachingConfigurerSupport {
 
 

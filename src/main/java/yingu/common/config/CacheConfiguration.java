@@ -18,8 +18,8 @@ import org.springframework.core.io.ClassPathResource;
  * @author Angel(QQ:412887952)
  * @version v.0.1
  */
-@Configuration
-@EnableCaching//标注启动缓存.
+//@Configuration
+//@EnableCaching//标注启动缓存.
 public class CacheConfiguration {
 
 

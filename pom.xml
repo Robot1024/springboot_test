@@ -76,6 +76,12 @@
             <artifactId>ehcache</artifactId>
         </dependency>
 
+        <!-- 分布式 session 处理-->
+        <dependency>
+            <groupId>org.springframework.session</groupId>
+            <artifactId>spring-session-data-redis</artifactId>
+        </dependency>
+
         <!--&lt;!&ndash; springboot 自动化配置&ndash;&gt;
         <dependency>
             <groupId>org.springframework.boot</groupId>
